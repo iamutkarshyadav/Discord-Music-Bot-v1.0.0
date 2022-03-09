@@ -1,9 +1,7 @@
 module.exports.name = "Discord Music System";
 
-// Disable music system if this is false
 const enabled = true;
 
-// Do not touch anything
 module.exports.enabled = enabled;
 
 if (enabled == false) return console.log('[INFO]'.blue + ' Discord Music System is ' + 'DISABLED'.red);
@@ -25,7 +23,6 @@ client.player.enableLive = true;
 
 client.player
 
-// Send a message when a track starts
 
 .on('trackStart', (message, track) => message.channel.send(messages.music_nowplaying.replace('(TRACK)', track.title)))
 .on('trackAdd', (message, queue, track) => message.channel.send(messages.music_trackadd.replace('(TRACK)', track.title)))

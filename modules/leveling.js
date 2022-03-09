@@ -1,26 +1,17 @@
 module.exports.name = "Discord Leveling System";
 
-// If set to true, leveling will work.
 const enabled = true;
 
-// If set to true, it will send a message when someone levels up
 const messagewhen = false;
 
-// Message that will be sent when someone levels up (does not matter if above is false)
 const theactualmessage = '**(TAG)**, you have advanced to level **(LEVEL)**!';
 
-// The Minimum and Maximum amount of XP someone can get per message
 const minxp = 15;
 const maxxp = 25;
 
-// Enable MEE6 type leveling? It will have a cooldown after every message
-// This prevents XP earned from spamming the bot and balances the "level economy" more
 const mee6leveling = true;
 
-// The MEE6 type leveling cooldown in miliseconds for when you can earn XP. Not required if above is false
 const mee6cooldown = 60000;
-
-// Do not touch the things below
 
 const colors = require('colors');
 module.exports.enabled = enabled;

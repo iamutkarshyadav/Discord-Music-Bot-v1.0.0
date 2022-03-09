@@ -35,7 +35,7 @@ Graced is a multi purpose discord bot with more than 30 commands including best 
 
 
   # Want to contribute in project? ......
-   I am a 1st year student of computer science, and I made this bot in like a week as part time, and I will be looking for new Ideas and contributions.
+  My name is Utkarsh Yadav and I am 1st year student of computer science, and I made this bot in like a week as part time, and I will be looking for new Ideas and contributions.
    If you're intrested in contribution, go ahead, or you have any ideas, new features, problems or you find any bugs feel free to resolve or you can DM me on my discord : Shadow__storme#4419
    I am also providing the sever you can join in-    https://discord.gg/7WcXeKWCGB
    You can also connect me at LinkedIn: https://www.linkedin.com/in/shadowstorme/

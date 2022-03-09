@@ -1,0 +1,38 @@
+{
+  "name": "lambdapse",
+  "version": "1.0.0",
+  "description": "Lambdapse is a multi-purpose, open-source Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "discord",
+    "music",
+    "emotes",
+    "games"
+  ],
+  "author": "lambdaguy101",
+  "license": "MIT",
+  "repository": "https://github.com/lambdagit101/lambdapse",
+  "dependencies": {
+    "@discordjs/opus": "^0.4.0",
+    "bufferutil": "^4.0.3",
+    "canvacord": "^5.2.0",
+    "colors": "^1.4.0",
+    "discord-buttons": "^2.4.1",
+    "discord-player": "^4.0.5",
+    "discord-together": "^1.1.11",
+    "discord-xp": "^1.1.14",
+    "discord.js": "^12.5.3",
+    "discord.js-pagination-fork": "^1.0.8",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.3.0",
+    "node-fetch": "^2.6.1",
+    "utf-8-validate": "^5.0.5",
+    "ytdl-core": "^4.8.3"
+  }
+}

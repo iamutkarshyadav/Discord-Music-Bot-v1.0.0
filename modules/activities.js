@@ -1,6 +1,6 @@
 module.exports.name = "Discord VC Activities";
 
-// Change this if you want it to not be enabled
+
 const enabled = true;
 
 module.exports.enabled = enabled;

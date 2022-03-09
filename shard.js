@@ -1,20 +1,20 @@
-// Essentials
+
 const fs = require('fs');
 const Discord = require('discord.js');
 const colors = require('colors');
 
-// Translations file
+
 const messages = require('./messages.json');
 
-// Actual client
+
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const disbut = require('discord-buttons')(client);
 
-// Exports the client so modules can access it
+
 module.exports.client = client;
 
-// Starts modules
+
 const modules = fs.readdirSync('./modules').filter(file => file.endsWith('.js'));
 
 for (const file of modules) {
@@ -22,7 +22,7 @@ for (const file of modules) {
     console.log('[INIT]'.gray + ` ${module.name} - module loaded`);
 }
 
-// Loads commands into memory
+
 const commandFolders = fs.readdirSync('./commands');
 
 for (const folder of commandFolders) {
@@ -34,7 +34,7 @@ for (const folder of commandFolders) {
 	}
 }
 
-// Go ahead, touch these
+
 client.helpPages = [];
 const commandFoldersForHelp = fs.readdirSync('./commands');
 const path = require('path');
@@ -121,5 +121,5 @@ client.on('message', async (message) => {
 	}
 });
 
-// Do not touch this
+
 client.login(process.env.BOT_TOKEN);
